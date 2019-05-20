@@ -22,7 +22,7 @@
 
   function ShoppingListCheckOffService(){
     var service = this;
-    var to_buy_items = [{name: 'Cookie', quantity: 100}, {name: 'Milk', quantity: 2}, {name: 'Chocolate', quantity: 5}, {name: 'Teapot', quantity: 1}, {name: 'Keyboard', quantity:1}];
+    var to_buy_items = [{name: 'Cookies', quantity: 100}, {name: 'Milk', quantity: 2}, {name: 'Chocolates', quantity: 5}, {name: 'Teapot', quantity: 1}, {name: 'Keyboard', quantity:1}];
     var bought_items = [];
 
     service.get_to_buy_items = function(){
