@@ -1,0 +1,75 @@
+.navbar{
+    background-color: #d6d257;
+}
+.navbar-default .navbar-brand{
+    color: brown;
+}
+body{
+    background: #764717;
+}
+.title{
+    color:black;
+}
+/* collapse items */
+#collapse-items li{
+    text-align: center;
+}
+#collapse-items li a{
+    color: black;
+}
+#collapse-items li a:hover{
+    color: white;
+}
+/* menu item */
+.menu-item{
+    position: relative;
+    background-color: #592c2c;
+    color: white;
+    margin: 0 10px 20px 10px;
+}
+.menu-item .back-to-top{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+.menu-item a{
+    color: yellow;
+}
+.menu-item a:hover{
+    color: black;
+}
+.menu-item h3{
+    color: bisque;
+}
+.menu-item p{
+    font-size: 1.2em;
+    overflow: auto;
+    height: 700px;
+}
+.menu-item .section-content p{
+    padding: 10px;
+}
+.menu-item .section-content{
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px){
+    #collapse-items li{
+	background-color: #6a3131;
+    }   
+    #collapse-items li a{
+	color: white;
+    }
+    #collapse-items li a:hover{
+	color: black;
+    }
+    .menu-item p{
+	height: 350px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #sushi-section p{
+	height: 350px;
+  }  
+}
