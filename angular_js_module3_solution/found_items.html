@@ -1,0 +1,12 @@
+<ul class="found-items">
+  <li ng-repeat="menu in foundItems">
+    <div class="menu-item">
+      <span class="attr">name</span>: <span class="value">{{menu.name}}</span> <br/>
+      <span class="attr">short name</span>: <span class="value">{{menu.short_name}}</span> <br/>
+      <span class="attr">description</span>: <span class="value">{{menu.description}}</span> <br/>
+    </div>
+    <div class="form-group">
+	    <button class="btn btn-danger" ng-click="onRemove({index: $index});">Don't want this one!</button>
+      </div>
+  </li>
+</ul>

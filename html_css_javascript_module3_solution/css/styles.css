@@ -33,7 +33,7 @@ body{
     right: 5px;
 }
 .menu-item a{
-    color: yellow;
+    color: bisque;
 }
 .menu-item a:hover{
     color: black;
