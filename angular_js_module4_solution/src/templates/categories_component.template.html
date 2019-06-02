@@ -1,0 +1,7 @@
+<ul>
+  <div class="list-item clickable" ng-repeat="category in $ctrl.categoriesList" ui-sref="items({short_name: category.short_name})">
+    <span class="attr">name</span>: <span class="value">{{category.name}}</span> <br/>
+    <span class="attr">short_name</span>: <span class="value">{{category.short_name}}</span> <br/>
+    <span class="attr">special_instructions</span>: <span class="value">{{category.special_instructions}}</span>
+  </div>
+</ul>
