@@ -7,7 +7,6 @@
       <input type="text" name="first_name" placeholder="First Name"
              ng-model="signUpCtrl.user.first_name"
              required >
-      {{ signUpCtrl.user.first_name }}
       <span
         ng-if="signUpForm.first_name.$error.required && signUpForm.first_name.$touched">
         First Name is Required
@@ -17,7 +16,6 @@
       <input type="text" name="last_name" placeholder="Last Name"
              ng-model="signUpCtrl.user.last_name"
              required >
-      {{ signUpCtrl.user.last_name }}
       <span
         ng-if="signUpForm.last_name.$error.required && signUpForm.last_name.$touched">
         Last Name is Required
