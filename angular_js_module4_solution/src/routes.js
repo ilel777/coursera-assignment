@@ -12,7 +12,8 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: "./src/templates/home.template.html"
+        templateUrl: "./src/templates/home.template.html",
+        component: 'home'
       })
 
       .state('categories',{

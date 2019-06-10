@@ -20,3 +20,7 @@ body {
 .value{
     font-style: italic;
 }
+
+spinner>div {
+	text-align: center;
+}
