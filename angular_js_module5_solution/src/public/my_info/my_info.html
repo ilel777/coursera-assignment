@@ -1,11 +1,7 @@
 <div class="container">
-  <h1>My Info</h1>
+  <h1 class="text-center">My Info</h1>
   <div ng-if="!myInfoCtrl.noData">
-    <div>First Name: {{myInfoCtrl.info.first_name}}</div>
-    <div>Last Name: {{myInfoCtrl.info.last_name}}</div>
-    <div>Email: {{myInfoCtrl.info.email}}</div>
-    <div>Phone Number: {{myInfoCtrl.info.phone}}</div>
-    <menu-item  menu-item="myInfoCtrl.info.fav_dish"></menu-item>
+    <user-info info="myInfoCtrl.info"></user-info>
   </div>
   <div ng-if="myInfoCtrl.noData">
     Not Signed Up Yet. <a ui-sref="public.sign_up">Sign up Now!</a>

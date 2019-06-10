@@ -9,7 +9,14 @@
   function SignUpController(MenuService, UserInfoService){
     var signUpCtrl = this;
 
-    signUpCtrl.user = {};
+    signUpCtrl.user = {
+      first_name: "ilel",
+      last_name: "ulul",
+      email: "ilel@ulul",
+      phone: "333-444-3333"
+    };
+    signUpCtrl.fav_dish_category = "A";
+    signUpCtrl.fav_dish_number = "2";
     signUpCtrl.submited = false;
 
 
